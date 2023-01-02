@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #f3f3f3;
+  background-image: linear-gradient(rgba(148, 142, 125, 0.7), #1b1b32cc),
+    url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Restaurant_N%C3%A4sinneula.jpg/1200px-Restaurant_N%C3%A4sinneula.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 100%;
+  margin: 48px auto 20px auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.description {
+  font-style: italic;
+}
+
+form {
+  padding: 40px 10px;
+  border-radius: 6px;
+  background-color: rgba(145, 151, 122, 0.8);
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 40px;
+  }
+}
+
+.form-group {
+  padding: 3px;
+  margin: 10px 0;
+}
+
+.form-control {
+  padding: 5px;
+  width: 100%;
+}
+
+#dropdown option {
+  padding: 100px;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 5px;
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 2px;
+  background-color: green;
+  color: inherit;
+}
